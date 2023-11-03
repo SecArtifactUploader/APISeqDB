@@ -1,6 +1,6 @@
 # APISeqDB
 
-Because `  APISeqDB.pk`file is larger than 100M, we storage the files in the OneDriver ([APISeqDB](https://1drv.ms/f/s!AmEGIYMGBaTpap6pzfPNLWbMaIE?e=s1dCSB)).
+Because `APISeqDB.pk`file is larger than 100M, we storage the files in the OneDriver ([APISeqDB](https://1drv.ms/f/s!AmEGIYMGBaTpap6pzfPNLWbMaIE?e=s1dCSB)).
 
 The format of the APISeqDB organized is as following.
 

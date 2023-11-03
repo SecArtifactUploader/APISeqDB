@@ -10,12 +10,6 @@ We presents *APISeqDB*, a large-scale yet semantic-preserving and fine-grained b
 
 We have release our datasets as open-source to foster research in the field of data-driven malware analysis at this page.
 
-## API Set
-
-We select appropriate apis for creating api sets, which is based on analyzing the semantic data of potentially dangerous apis. There are three api categories in our api set. They are Refined api, Contextual api and Sensitive api.  Below are the apis belong to these three categories. For more detail information, you can read our paper, they are in section *2.1.2 Determining Action Set*.
-
-![image-20231026172506520](https://gitee.com/aibot8_admin/blogimage_aibot/raw/master/pc_img/image-20231026172506520.png)
-
 ## Dataset
 
 There are four sub-directories in our folder. They are `APISeqDB`, `MDT`, `Mul `and `LLM`.  The description of these folders are below.
@@ -70,6 +64,6 @@ $D_{description}$ is the data used to fine-tunning LLMs,  200 of them are for tr
 
 ## Attention
 
-- We released our extracted features of an unbiased sample of the 200K apps studied in our paper. Because `  APISeqDB.pk`file is larger than 100M, we storage the files in the OneDriver ([APISeqDB](https://1drv.ms/f/s!AmEGIYMGBaTpap6pzfPNLWbMaIE?e=s1dCSB)).
+- We released our extracted features of an unbiased sample of the 200K apps studied in our paper. Because `APISeqDB.pk`file is larger than 100M, we storage the files in the OneDrive ([APISeqDB](https://1drv.ms/f/s!AmEGIYMGBaTpap6pzfPNLWbMaIE?e=s1dCSB)).
 
       
