@@ -1,0 +1,15 @@
+# Multi-label dataset
+
+`Mul_label.pk` has 4000 manually labeled sequences, each pair of sequences a multicategorical label according to table8 in the study like `[seq,label]`.
+
+Based on the information you supplied, it sounds like you're discussing a Python script named `Mul_label_load.py` that loads a dataset using the `load_data()` method. The script accepts three arguments: `file_path` for the dataset path, `json_path` for the mapping of IDs to actions (in `compactid2action.json`), and two optional options `get_action` and `get_label` to convert compact IDs to actions and numeric labels to textual categories, respectively.
+
+## Case Study
+
+case: `Mul_label.pk` holds two lists: `sequence `and the matching `labels `for the sequences. Both lists have a length of 4000. Here is an example from `Mul_label.pk`
+
+```SHELL
+sequence: ['getActiveNetworkInfo', 'getDeviceIdForPhone', 'getIccSerialNumberForSubscriber', 'getAndroidId', 'getActiveNetworkInfo', 'getDeviceIdForPhone', 'getIccSerialNumberForSubscriber', 'getAndroidId', 'getActiveNetworkInfo', 'getDeviceIdForPhone', 'getIccSerialNumberForSubscriber', 'getAndroidId', 'getNetworkInfo', 'getLinkProperties', 'getNetworkInfo', 'getLinkProperties', 'registerReceiver', 'registerReceiver', 'getNetworkInfo', 'getLinkProperties', 'getNetworkInfo', 'getLinkProperties', 'getApplicationRestrictions', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerContentObserver', 'getNetworkInfo', 'getLinkProperties', 'loadUrl', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'addWindow', 'getNetworkInfo', 'getLinkProperties', 'getNetworkInfo', 'getLinkProperties', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerReceiver', 'registerContentObserver', 'unbindService', 'registerContentObserver', 'unbindService', 'registerContentObserver', 'registerContentObserver', 'registerContentObserver', 'registerContentObserver', 'getActiveNetworkInfo', 'getActiveNetworkInfo', 'getNetworkInfo', 'getLinkProperties', 'getNetworkInfo', 'getLinkProperties', 'getNetworkInfo', 'getNetworkInfo', 'addWindowToast', 'registerReceiver', 'registerReceiver', 'getActiveNetworkInfo', 'getDeviceIdForPhone', 'getIccSerialNumberForSubscriber', 'getAndroidId', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+label: Information Gathering
+```
+
